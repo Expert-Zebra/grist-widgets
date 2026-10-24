@@ -1,0 +1,30 @@
+{
+  "name": "zebra-grist-widgets",
+  "version": "0.0.0",
+  "description": "",
+  "scripts": {
+    "build": "tsc --build && node ./buildtools/publish.js manifest.json",
+    "publish": "node ./buildtools/publish.js manifest.json https://grist-w.expertzebra.com",
+    "serve": "http-server -c-1 --port=8585 -s",
+    "build:dev": "node ./buildtools/publish.js manifest.json http://localhost:8585",
+    "serve:dev": "env PORT=8585 node ./buildtools/dev-server.js",
+    "watch": "nodemon --ignore manifest.json -e js,json --exec 'npm run build:dev'",
+    "dev": "echo 'Run to start Grist\nGRIST_WIDGET_LIST_URL=http://localhost:8585/manifest.json open /Applications/Grist\\ Desktop.app' && npm run watch 1> /dev/null & npm run serve:dev 1> /dev/null && fg"
+  },
+  "private": true,
+  "devDependencies": {
+    "connect-livereload": "^0.6.1",
+    "livereload": "^0.10.3",
+    "nodemon": "^3.1.14",
+    "sirv": "^3.0.2",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "grist-api": "^0.1.7",
+    "http-server": "^14.1.1",
+    "jsonc": "^2.0.0"
+  },
+  "allowScripts": {
+    "fsevents@2.3.3": true
+  }
+}

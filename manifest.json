@@ -1,0 +1,119 @@
+[
+  {
+    "name": "Fill property details",
+    "url": "https://grist-w.expertzebra.com/dutch-househunt/fill-property-details.html",
+    "widgetId": "@expert-zebra/fill-property-details",
+    "published": true,
+    "accessLevel": "read table",
+    "renderAfterReady": true,
+    "description": "Get property details from Funda.",
+    "authors": [
+      {
+        "name": "Aki 🌹 Braun",
+        "url": "https://expertzebra.com"
+      }
+    ],
+    "isGristLabsMaintained": false,
+    "lastUpdatedAt": "2026-10-24T13:58:19+02:00"
+  },
+  {
+    "name": "Mortgage Calculator",
+    "url": "https://grist-w.expertzebra.com/dutch-househunt/mortgage-calculator.html",
+    "widgetId": "@expert-zebra/mortgage-calculator",
+    "published": true,
+    "accessLevel": "read table",
+    "renderAfterReady": true,
+    "description": "Calculate mortgage payment on Dutch property.",
+    "authors": [
+      {
+        "name": "Aki 🌹 Braun",
+        "url": "https://expertzebra.com"
+      }
+    ],
+    "isGristLabsMaintained": false,
+    "lastUpdatedAt": "2026-10-24T13:58:19+02:00"
+  },
+  {
+    "name": "Inspect record",
+    "url": "https://gristlabs.github.io/grist-widget/inspect/onRecord.html",
+    "widgetId": "@gristlabs/widget-inspect#onRecord",
+    "published": true,
+    "accessLevel": "read table",
+    "renderAfterReady": true,
+    "description": "View the raw representation of the selected record as JSON.",
+    "authors": [
+      {
+        "name": "Grist Labs",
+        "url": "https://github.com/gristlabs"
+      }
+    ],
+    "isGristLabsMaintained": true,
+    "lastUpdatedAt": "2026-10-24T13:58:19+02:00"
+  },
+  {
+    "name": "Inspect table",
+    "url": "https://gristlabs.github.io/grist-widget/inspect/onRecords.html",
+    "widgetId": "@gristlabs/widget-inspect#onRecords",
+    "published": true,
+    "accessLevel": "read table",
+    "renderAfterReady": true,
+    "description": "View the raw representation of all the table's records as JSON.",
+    "authors": [
+      {
+        "name": "Grist Labs",
+        "url": "https://github.com/gristlabs"
+      }
+    ],
+    "isGristLabsMaintained": true,
+    "lastUpdatedAt": "2026-10-24T13:58:19+02:00"
+  },
+  {
+    "name": "Inspect options",
+    "url": "https://gristlabs.github.io/grist-widget/inspect/onOptions.html",
+    "widgetId": "@gristlabs/widget-inspect#onOptions",
+    "published": true,
+    "renderAfterReady": true,
+    "description": "View the options sent to this custom widget, and send your own custom options, for testing.",
+    "authors": [
+      {
+        "name": "Grist Labs",
+        "url": "https://github.com/gristlabs"
+      }
+    ],
+    "isGristLabsMaintained": true,
+    "lastUpdatedAt": "2026-10-24T13:58:19+02:00"
+  },
+  {
+    "name": "Inspect API",
+    "url": "https://gristlabs.github.io/grist-widget/inspect/api.html",
+    "widgetId": "@gristlabs/widget-inspect#api",
+    "published": true,
+    "renderAfterReady": true,
+    "description": "An interactive introduction to the Grist Custom Widget API, with live code examples.",
+    "authors": [
+      {
+        "name": "Grist Labs",
+        "url": "https://github.com/gristlabs"
+      }
+    ],
+    "isGristLabsMaintained": true,
+    "lastUpdatedAt": "2026-10-24T13:58:19+02:00"
+  },
+  {
+    "name": "Map",
+    "url": "https://gristlabs.github.io/grist-widget/map/index.html",
+    "widgetId": "@gristlabs/widget-map#map",
+    "published": true,
+    "accessLevel": "read table",
+    "renderAfterReady": true,
+    "description": "Display locations on a map using either addresses or latitude and longitude coordinates..",
+    "authors": [
+      {
+        "name": "Grist Labs",
+        "url": "https://github.com/gristlabs"
+      }
+    ],
+    "isGristLabsMaintained": true,
+    "lastUpdatedAt": "2026-10-24T13:58:19+02:00"
+  }
+]

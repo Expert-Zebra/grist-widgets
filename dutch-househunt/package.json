@@ -1,0 +1,39 @@
+{
+  "name": "@expert-zebra/dutch-househunt",
+  "description": "Dutch House Hunting",
+  "version": "0.1.0",
+  "grist": [
+    {
+      "name": "Fill property details",
+      "url": "https://grist-w.expertzebra.com/dutch-househunt/fill-property-details.html",
+      "widgetId": "@expert-zebra/fill-property-details",
+      "published": true,
+      "accessLevel": "read table",
+      "renderAfterReady": true,
+      "description": "Get property details from Funda.",
+      "authors": [
+        {
+          "name": "Aki 🌹 Braun",
+          "url": "https://expertzebra.com"
+        }
+      ],
+      "isGristLabsMaintained": false
+    },
+    {
+      "name": "Mortgage Calculator",
+      "url": "https://grist-w.expertzebra.com/dutch-househunt/mortgage-calculator.html",
+      "widgetId": "@expert-zebra/mortgage-calculator",
+      "published": true,
+      "accessLevel": "read table",
+      "renderAfterReady": true,
+      "description": "Calculate mortgage payment on Dutch property.",
+      "authors": [
+        {
+          "name": "Aki 🌹 Braun",
+          "url": "https://expertzebra.com"
+        }
+      ],
+      "isGristLabsMaintained": false
+    }
+  ]
+}
